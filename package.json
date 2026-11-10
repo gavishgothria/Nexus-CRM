@@ -1,0 +1,21 @@
+{
+  "name": "nexus-crm",
+  "version": "2.4.0",
+  "description": "Enterprise-grade AI-powered Customer Relationship Management (CRM) platform inspired by Attio, HubSpot, Linear, and Salesforce.",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "npx serve . -p 3000",
+    "dev": "python3 -m http.server 8080",
+    "lint": "node --check src/app.js && node --check src/data.js && node --check src/charts.js"
+  },
+  "keywords": [
+    "crm",
+    "sales-pipeline",
+    "kanban",
+    "analytics",
+    "revenue-operations",
+    "enterprise-saas"
+  ],
+  "author": "Nexus Revenue Cloud",
+  "license": "MIT"
+}
